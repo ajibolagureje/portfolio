@@ -1,2 +1,6 @@
 # portfolio
-My Simple One Page Portfolio Website
+My Simple One Page Portfolio Website:
+My Portfolio website is a one page website and has four navigation links which are home,services,about, project,and contact. Kindly note that this project is just me testing my knowledge on what django can do and i currently don't have any projects.
+My portfolio project shows how i can control the front end from my admin page. I registered two models namely services and projects in my admin page. So literally i can add, update or remove an item with its content without neccesarily touching my code manually. Every other content can be edited touching the code. This type of content are believed to be static in nature and not changing anytime soon.
+Every of my datas are stored in the postgresql and are being fetched when needed.
+I ran the application by downloading a virtual environment and all the requirements in the requirements.txt file and created a new django project, defined my models,made migrations, did a migrate (pushing my models into postgresql), created my view page, inserted my urls for the application and project. I also set the platform for supporting static files and being able to control two particular sections from the site with the admin page.   
